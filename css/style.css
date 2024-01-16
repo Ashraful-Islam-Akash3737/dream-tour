@@ -466,6 +466,71 @@ ul li a {
 
 
 
+
+/*  our popular tour section start  */
+.perfect-place-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.perfect-place-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.perfect-place-details-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+
+
+.perfect-place-paragraph {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.li{
+    margin-left: 10px;
+    list-style-type: disc;
+}
+
+.btn-read-more {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+}
+.perfect-place-img-container{
+    width: 50%;
+
+}
+.perfect-place-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
 /* newsletter and image section start */
 .newsletter-and-img-container {
     display: flex;
@@ -845,6 +910,51 @@ hr {
     .card-container-1,
     .card-container-2,
     .card-container-3 {
+        width: 100%;
+    }
+
+
+
+
+    /*  our popular tour section start  */
+    .perfect-place-container {
+        gap: 25px;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .perfect-place-details-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .perfect-place-img-container{
+        width: 100%;
+    }
+
+    .perfect-place-details-title {
+        font-size: 20px;
+    }
+
+    .perfect-place-details-description {
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .perfect-place-paragraph {
+        font-size: 14px;
+    }
+
+    .li {
+        margin-left: 10px;
+    }
+
+    .perfect-place-img {
         width: 100%;
     }
 
