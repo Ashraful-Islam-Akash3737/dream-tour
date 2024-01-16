@@ -224,6 +224,8 @@ main {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
     height: 250px;
     width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -485,5 +487,28 @@ main {
     }
 
 
+
+    /* choose us section start */
+    .choose-us-container {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    
+    .choose-us-title {
+        font-size: 20px;
+    }
+    
+    .choose-us-description {
+        font-size: 14px;
+    }
+    
+    .choose-your-us-card-container {
+        flex-direction: column;
+    }
+    .card-container-1, .card-container-2, .card-container-3{
+        width: 100%;
+    }
 
 }
