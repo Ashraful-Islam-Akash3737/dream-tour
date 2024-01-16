@@ -266,6 +266,70 @@ main {
 
 
 
+/* choose-us section start */
+.choose-us-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.choose-us-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-us-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.choose-your-us-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.card-container-1 {
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px 50px 30px 30px;
+}
+.card-title{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.card-container-2 {
+    width: calc(50% - 25px);
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px 50px 30px 30px;
+}
+
+.card-container-3 {
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 30px 50px 30px 30px;
+}
+
+
+
 
 
 
@@ -409,6 +473,7 @@ main {
         margin-top: 25px;
 
     }
+
     .mal,
     .indo,
     .sri,
