@@ -12,6 +12,54 @@ main {
 
 
 /* header section start */
+
+
+/* nav section start */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.three-dot {
+    display:none;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
 /* header banner section start */
 .header-banner-container {
     border-radius: 16px;
@@ -506,6 +554,43 @@ hr {
 
 
     /* header section start */
+
+
+    /* nav section start */
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+
+    .nav-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #131318;
+        font-family: Mulish;
+        font-size: 32px;
+        font-weight: 800;
+        margin-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    
+
+    ul {
+        display: none;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .three-dot {
+        display:block;
+    }
+
+
+
+
     /* header banner section start */
     .header-banner-container {
         height: 70vh;
@@ -708,20 +793,20 @@ hr {
     .footer-container {
         background: rgba(19, 19, 24, 0.05);
     }
-    
+
     .footer-title {
         font-size: 32px;
         padding-top: 30px;
     }
-    
+
     .tour {
         font-size: 32px;
     }
-    
+
     .footer-img {
         margin-right: 20px;
     }
-    
+
     .footer-description {
         color: #5A5A5D;
         text-align: center;
@@ -730,18 +815,18 @@ hr {
         font-weight: 400;
         margin: 15px 50px;
     }
-    
+
     .footer-icon {
         display: flex;
         justify-content: center;
         gap: 20px;
         padding-top: 20px;
     }
-    
+
     hr {
         margin: 25px 20px;
     }
-    
+
     .paragraph {
         color: #131318;
         font-family: Mulish;
