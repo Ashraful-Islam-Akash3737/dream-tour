@@ -14,7 +14,10 @@ main {
 .header-banner-container {
     border-radius: 16px;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
-    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
     margin-top: 60px;
     margin-bottom: 100px;
     display: flex;
@@ -47,6 +50,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .banner-input {
@@ -75,4 +79,59 @@ main {
     font-family: Mulish;
     font-size: 16px;
     font-weight: 700;
+}
+
+.find-now-icon {
+    margin-right: 20px;
+}
+
+
+
+
+/* responsive design for small devices */
+@media screen and (max-width: 600px) {
+
+    header,
+    main {
+        margin: auto 30px;
+    }
+
+    .header-banner-container {
+        height: 70vh ;
+        padding: 50px 0px;
+    }
+    .header-banner-title {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    .header-banner-description {
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .input-btn-container{
+        flex-direction: column;
+    }
+    .banner-input {
+        border-radius: 10px;
+        background: #FFF;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        width: 100%;
+    }
+    .btn-primary {
+        border-radius: 8px;
+        background: #FF5400;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 700;
+    }
 }
