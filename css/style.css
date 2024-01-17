@@ -211,6 +211,13 @@ a:hover {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
+    transition: all ease-in-out 1.2s;
+}
+.popular-tour-details-title:hover {
+    
+    color: #FF5400;
+    transition: all ease-in-out 1.2s;
+    
 }
 
 
@@ -260,6 +267,11 @@ a:hover {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
+    transition: all ease-in-out 1.2s;
+}
+.choose-your-destination-title:hover{
+    color: #FF5400;
+    transition: all ease-in-out 1.2s;
 }
 
 .choose-your-destination-description {
@@ -409,6 +421,12 @@ a:hover {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
+    transition: all ease-in-out 1.2s;
+}
+
+.holiday-package-title:hover{
+    color: #FF5400;
+    transition: all ease-in-out 1.2s;
 }
 
 .holiday-card-container {
@@ -490,6 +508,11 @@ a:hover {
     font-family: Mulish;
     font-size: 40px;
     font-weight: 800;
+    transition: all ease-in-out 1.2s;
+}
+.choose-us-title:hover{
+    color: #FF5400;
+    transition: all ease-in-out 1.2s;
 }
 
 .choose-us-description {
@@ -566,6 +589,11 @@ a:hover {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
+    transition: all ease-in-out 1.2s;
+}
+.perfect-place-details-title:hover{
+    color: #FF5400;
+    transition: all ease-in-out 1.2s;
 }
 
 
