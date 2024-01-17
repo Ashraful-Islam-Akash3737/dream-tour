@@ -360,6 +360,35 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all ease-in-out 1.2s;
+}
+.mal:hover {
+    color: #FF5400;
+    transition: all ease-in-out 1.2s;
+}
+.indo:hover {
+    color: #FF5400;
+    transition: all ease-in-out 1.2s;
+}
+.sri:hover {
+    color: #FF5400;
+    transition: all ease-in-out 1.2s;
+}
+.n-a:hover {
+    color: #FF5400;
+    transition: all ease-in-out 1.2s;
+}
+.kas:hover {
+    color: #FF5400;
+    transition: all ease-in-out 1.2s;
+}
+.bang:hover {
+    color: #FF5400;
+    transition: all ease-in-out 1.2s;
+}
+.band:hover {
+    color: #FF5400;
+    transition: all ease-in-out 1.2s;
 }
 
 .img {
