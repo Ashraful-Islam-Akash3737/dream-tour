@@ -394,7 +394,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
-    box-shadow: 2px 2px 3px gray;
+    box-shadow: 1px 1px 5px gray;
     padding: 10px 10px 20px 10px;
     border-radius: 10px;
 }
