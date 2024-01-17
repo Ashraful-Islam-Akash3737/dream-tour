@@ -49,7 +49,22 @@ li {
 }
 
 .home {
-    color: #FF5400;
+    color: #ff5500cb;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid #ff5500cb;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    transition: all ease-in-out 1s;
+}
+.home:hover{
+    color: #ff0000; 
+    transition: all ease-in-out 1s;
+    border-bottom: 2px solid #ff0000;
 }
 
 ul li a {
@@ -59,10 +74,21 @@ ul li a {
     text-align: center;
     font-family: Mulish;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all ease-in-out 1s;
+    border-bottom: 2px solid #ff550000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
-
+a:hover {
+    color: #FF5400;
+    transition: all ease-in-out 1s;
+    border-bottom: 2px solid #FF5400;
+}
 
 /* header banner section start */
 .header-banner-container {
@@ -82,6 +108,16 @@ ul li a {
 
 .header-banner-title {
     color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+    transition: all ease-in-out 1s;
+}
+.header-banner-title:hover {
+    color: #FF5400;
+    transition: all ease-in-out 1s;
     text-align: center;
     font-family: Mulish;
     font-size: 4rem;
@@ -139,6 +175,11 @@ ul li a {
     font-family: Mulish;
     font-size: 16px;
     font-weight: 700;
+    transition: all ease-in-out 1.3s;
+}
+.btn-primary:hover{
+    background: #ff0000;
+    transition: all ease-in-out 1.3s;
 }
 
 .find-now-icon {
@@ -197,6 +238,11 @@ ul li a {
     font-family: Mulish;
     font-size: 16px;
     font-weight: 700;
+    transition: all ease-in-out 1.2s;
+}
+.btn-read-more:hover {
+    background: #ff0000;
+    transition: all ease-in-out 1.2s;
 }
 
 
@@ -503,7 +549,7 @@ ul li a {
     margin-bottom: 25px;
 }
 
-.li{
+.li {
     margin-left: 10px;
     list-style-type: disc;
 }
@@ -519,11 +565,13 @@ ul li a {
     font-size: 16px;
     font-weight: 700;
 }
-.perfect-place-img-container{
+
+.perfect-place-img-container {
     width: 50%;
 
 }
-.perfect-place-img{
+
+.perfect-place-img {
     width: 100%;
     border-radius: 10px;
 }
@@ -930,7 +978,8 @@ hr {
         align-items: flex-start;
         width: 100%;
     }
-    .perfect-place-img-container{
+
+    .perfect-place-img-container {
         width: 100%;
     }
 
